@@ -1,0 +1,82 @@
+.card{
+    width: 350px;
+    background-color: black;
+    color:azure;
+    margin: 100px auto 0;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 20px;
+}
+.search{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchBox{
+    border: 0;
+    outline: 0;
+    background-color:rgba(128, 128, 128, 0.419);
+    color: white;
+    padding: 15px 25px;
+    height: 25px;
+    border-radius: 25px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.searchBtn{
+    background-color:rgba(240, 248, 255, 0.211);
+}
+.searchImage{
+    width: 25px;
+}
+.location-not-found{
+    display: none;
+}
+.weather{
+    display: none;
+    flex-direction: column;
+}
+.weather_icon{
+    width: 100px;
+    margin-top: 15px;
+}
+.weather h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+.weather h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+.description{
+    font-size: 20px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col-1{
+    display: contents;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 30px;
+    
+}
+.weatherCondition{
+   font-size: 22px;
+}
+.windSpeed{
+    font-size: 22px;
+ }
